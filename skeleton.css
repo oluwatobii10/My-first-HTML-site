@@ -1,0 +1,40 @@
+.container {
+    width: 95%;
+    height: 800px;
+    margin:0 auto;
+}
+.navbar {
+    width: 95%;
+    height: 200px;
+    background-color: blanchedalmond;
+    border-right: 50px solid black;
+    border-left: 50px solid black;
+}
+.navcontainer {
+    width: 100%;
+    height: 200px;
+}
+.parent {
+    width: 1300px;
+    height: 600px;
+}
+.childA {
+    width: 600px;
+    height: 600px;
+    float: left;
+}
+.childA1 {
+    width: 600px;
+    height: 450px;
+    color: gray;
+}
+.childA2 {
+    width: 600px;
+    height: 150px;
+    color: black;
+}
+.childB {
+    width: 700px;
+    height: 600px;
+    float: right;
+}

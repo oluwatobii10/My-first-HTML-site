@@ -1,0 +1,770 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+
+}
+.maincontainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100% ;
+    height: 300px;
+    
+}
+.image{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+.img {
+    display: flex;
+    align-items: center;
+    width:100% ;
+    height:fit-content;
+    background-color: rgba(0, 0, 0, 0.176);
+}
+.image img{
+    width: 100%;
+    height: fit-content;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 80px;
+}
+.nav_container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 50px;
+    width: 90%;
+    gap: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(0, 0, 0, 0.155);
+}
+.logo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo img{
+    width:70px ;
+    height: 70px;
+}
+.middle{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.middle ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    text-decoration: none;
+}
+.middle ul a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cta{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.cta1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.cta1 button{
+    position: relative;
+    display: flex;
+    border: 1px solid yellow;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.802);
+}
+.cta1 a{
+
+    color: yellow;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.cta2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+}
+.cta2 button{
+    position: relative;
+    display: flex;
+    background-color: yellow;
+    border-radius: 50px;
+    border: 1px solid yellow;
+}
+.cta2 a{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    text-decoration: none;
+}
+*/
+
+
+.main {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+.content-container {
+    width: 100%;
+    height: fit-content;
+    min-height: 700px;
+    border-radius: 18px;
+    background-image: url(./image/expresso.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.major {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    padding: 16px 30px 0px 30px;
+    z-index: 2;
+    align-items: center;
+}
+
+.navcontainer {
+    width: 95%;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 0.127);
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 10px 8px 10px;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.logocontainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.logocontainer img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.nav-linkscont{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-linkscont ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+.nav-linkscont ul p span a{
+       color: gold;
+       text-decoration: none;
+       border-bottom: 1px solid gold;
+
+}
+.nav-linkscont ul p a{
+    color: white;
+    text-decoration: none;
+}
+.cta{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.cta1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.cta1 button{
+    position: relative;
+    display: flex;
+    border: 1px solid gold;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.194);
+}
+.cta1 a{
+
+    color: yellow;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+    
+.cta2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding-right: 20px; 
+ }
+.cta2 button{
+    position: relative;
+    display: flex;
+    background-color: gold;
+    border-radius: 50px;
+    border: 1px solid gold;
+}
+.cta2 a{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    text-decoration: none;
+}
+.text-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    line-height: 5px;
+}
+.h2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    font-size: 30px;
+    font-weight: 900;
+}
+.h2 p{
+    color: white;
+}
+.h2 p span{
+    color: gold;
+}
+.h3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:90px;
+}
+.h3 p{
+    font-size: 18px;
+    color: white;
+}
+.h4{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.head{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+}
+.head p{
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.midhead{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.midhead p1{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding-left: 20x;
+    padding-bottom: 20px;
+}
+.midhead p2{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding-left: 230px;
+    padding-bottom: 20px;
+}
+.midhead p3{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+.downhead{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60px;
+    padding-bottom: 30px;
+}
+.ctahead{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.E{
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.E input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    padding-right: 100px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+}
+.F{
+    position: relative;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 0px;
+}
+.F input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    padding-right: 60px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+}
+.G{
+    position: relative;
+    display: flex;
+    padding-left: 15px;
+}
+.G input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    padding-right: 0px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.293);
+}
+.H{
+    position: relative;
+    display: flex;
+    padding-left: 10px;
+}
+.H button{
+    border-radius: 40px;
+    background-color: gold;
+    border: 1px solid gold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.H button p a{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+}
+@media (max-width:420px){
+    .main {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.content-container {
+    width: 100%;
+    height: fit-content;
+    min-height: 700px;
+    border-radius: 18px;
+    background-image: url(./image/expresso.png);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+}
+
+.overlay {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.7;
+    z-index: 1;
+}
+ .major{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    padding: 16px 0px 0px 0px;
+    z-index: 2;
+    align-items: center; 
+        }
+ .navcontainer {
+    width: 95%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.127);
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 5px 8px 5px;
+    
+    gap: 0px;
+
+}
+.logocontainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+.logocontainer img{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.nav-linkscont{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: aqua;
+}
+.nav-linkscont ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+.nav-linkscont ul p span{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.nav-linkscont ul p span a{
+    color: gold;
+    text-decoration: none;
+    border-bottom: 1px solid gold
+}
+.nav-linkscont ul p a{
+    color: white;
+    text-decoration: none;
+}
+.cta{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.cta1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.cta1 button{
+    position: relative;
+    display: flex;
+    border: 1px solid gold;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.194);
+}
+.cta1 a{
+
+    color: yellow;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.cta2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding-right: 10px; 
+ }
+.cta2 button{
+    position: relative;
+    display: flex;
+    background-color: gold;
+    border-radius: 50px;
+    border: 1px solid gold;
+}
+.cta2 a{
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    text-decoration: none;
+}
+.text-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    line-height: 25px;
+}
+.h2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    font-size: 20px;
+    font-weight: 900;
+}
+.h2 p{
+    color: white;
+}
+.h2 p span{
+    color: gold;
+}
+.h3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:110px;
+}
+.h3 p{
+    font-size: 8px;
+    color: white;
+}
+.h4{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.head{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+}
+.head p{
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+}
+.midhead{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.midhead p1{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+.midhead p2{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.midhead p3{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.downhead{
+    position: absolute;
+              bottom:10%;
+              left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5px;
+    padding-bottom: 30px;
+}
+.ctahead{
+    position: relative;
+    width:10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px;
+
+}
+.E{
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.E input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+    border: 1px solid rgba(0, 0, 0, 0.411);
+}
+.F{
+    position: relative;
+    display: flex;
+    padding-left: 5px;
+    padding-right: 0px;
+}
+.F input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    padding-right: 0px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.33);
+}
+.G{
+    position: relative;
+    display: flex;
+    padding-left: 2px;
+}
+.G input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    padding-right: 0px;
+    padding-left: 1px;
+    border: 1px solid rgba(0, 0, 0, 0.293);
+}
+.H{
+    position: relative;
+    display: flex;
+    padding-left: 10px;
+}
+.H button{
+    border-radius: 40px;
+    background-color: gold;
+    border: 1px solid gold;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.H button p a{
+    color: black;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+}
+
+

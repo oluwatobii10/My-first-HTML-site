@@ -1,0 +1,557 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+@media (max-width:600px) {
+   .container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   }
+    
+}
+
+.container{
+    width: 100%;
+    height: fit-content;
+    
+}
+.navbar{
+    width: 100%;
+    height: fit-content;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.navcontainer{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.155);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    width:fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation: logo 0.7s ease-in infinite ;
+    
+}
+@keyframes logo {
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(90deg);}
+    50%{transform: rotate(180deg);}
+    75%{transform: rotate(270deg);}
+    100%{transform: rotate(360deg);}
+}
+.logo img {
+    height: 80px;
+    width: 80px;
+}
+.logo img:hover{
+    height: 90px;
+    width: 90px;
+    transition: all 0.3s ease;
+}
+.navlinks ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.navlinks ul a {
+    text-decoration: none;
+}
+.navlinks ul a li {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+}
+.CTAbutton {
+    font-size: 14px;
+    font-weight: 600;
+}
+.CTAbutton button {
+    border: 1px solid black;
+    padding: 10px 24px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.CTAbutton button:active{
+    width: 75px;
+    height: 75px;
+    background-color: red;
+}
+.CTAbutton a {
+    background-color: whitesmoke;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.maincontainer {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+}
+
+.left-wing {
+    height: fit-content;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95%;
+  
+   
+    
+    gap: 45px;
+}
+
+.right-wing {
+    height: 772px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    background-color:rgba(222, 184, 135, 0.26);
+}
+.right-wing container {
+    height: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.header-image {
+    height: 30px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 350px;
+    padding-top: 90px;
+    padding-bottom: 30px;
+}
+.header-image p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 7px;
+}
+.header-image span {
+    font-size: 18px;
+    font-weight: 700;
+}
+.image{
+    position: relative;
+    display: flex;
+    width:100% ;
+    height: fit-content;
+    animation:image 3s ease-in infinite;
+}
+@keyframes image{
+    0%{transform: scale(1);}
+    25%{transform: scale(1.2);}
+    50%{transform: scale(1.3);}
+    75%{transform: scale(1.1);}
+    100%{transform: scale(0.8);}
+}
+.image img {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    padding-left: 100px;
+}
+.sub {
+    position: absolute;
+              bottom: 30px;
+              right: 38%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.sub button {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 10px;
+    border-color: white;
+    
+}
+.sub button p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+.sub button span {
+    position: relative;
+    align-items: center;
+    float: right;
+}
+.sub span {
+    color: azure;
+    background-color: black;
+    height: 20px;
+    width: 20px;
+}
+.topimagebar {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.header-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: fit-content;
+    gap: 40px;
+    padding: 110px 60px 0px 100px;
+   
+
+ 
+}
+
+.toph2 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+    gap: 20px;
+}
+
+.toph2 h1 {
+    margin: 0px;
+    line-height: 1rex;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.toph2 span {
+    background-color: blueviolet;
+    border-radius: 50px;
+    padding: 14px 44px;
+    width: 150px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
+
+.description-text-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.description-text-box span {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 8px
+
+    
+}
+.description-text-box span p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+    color: rgb(27, 27, 27);
+
+}
+
+.description-text-box p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+    color: rgb(27, 27, 27);
+
+}
+
+.description-text-box span strong {
+    font-size: 14px;
+    font-weight: bolder;
+    margin: 0px;
+
+}
+
+.button-cont {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: flex-start;
+   gap: 40px  
+}
+.CTAbutton1 {
+    position: relative;
+    align-items: center;
+}
+.CTAbutton1 button {
+    border: 1px solid rgba(165, 42, 42, 0.815);
+    padding: 20px 40px;
+    background-color:brown;
+}
+.CTAbutton1 a {
+    color: azure;
+    list-style: none;
+    text-decoration: none;
+}
+.CTAbutton2 {
+    position: relative;
+    align-items: center;
+}
+.CTAbutton2 button {
+    border: 1px solid white;
+    background-color: white;
+}
+.CTAbutton2 a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:700;
+
+}
+.rating-cont {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.rating-cont span p {
+    padding-bottom: 10px;
+}
+.rating-cont span p strong {
+    font-size: 25px;
+    font-weight: 700;
+}
+.rating-cont p {
+    color:black;
+    font: size 14px;
+    font-weight: 700;
+}
+.logo2 {
+    width: fit-content;
+    position: absolute;
+    top: 400px;
+    right: 18%;
+    display: flex;
+    flex-direction: row;
+    animation:logo2 5s ease-in infinite;
+}
+@keyframes logo2{
+       0%{transform: translate(200px,0px);}
+       25%{transform: translate(0px,200px);}
+       50%{transform: translate(-200px,0px);}
+       75%{transform: translate(0px,-200px);}
+       100%{transform: translate(200px,0px);}
+}
+
+
+.logo2 img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.projects-contact {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.pd {
+    width: fit-content;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+.box1 {
+    width: 100px;
+    height: fit-content;
+    align-items: center;
+    position: relative;
+    display: flex;
+
+}
+.pd box1 p strong {
+    font-size: 20px;
+    font-weight: 900;
+}
+.pd box1 p {
+    font-size: 15px;
+    font-weight: 600;
+}
+.box2 {
+    width: 100px;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    position: relative;
+    text-align: right;
+    padding-left: 30px;
+}
+.pd box2 p strong {
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 0px;
+}
+.pd box2 p {
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 90px;
+}
+.downbar {
+      width: 100%;
+      height: 120px;  
+      padding-top: 50px;
+      padding-bottom: 50px;
+      display: flex;
+      align-items: center;
+      background-color: black;
+    
+
+}
+.downcontainer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+
+
+}
+.box1 {
+    position: relative;
+    width: 200px;
+    height: fit-content;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.box1 p {
+    font-size: 15px;
+    font-weight: 500;
+    color: aliceblue;
+}
+.buttoncont3 {
+    position: relative;
+    align-items: center;
+    float: left;
+}
+.CTAbutton3 {
+    position: relative;
+    align-items: center;
+    padding-top: 10px;
+}
+.CTAbutton3 button {
+    position: relative;
+    flex-direction: column;
+    padding: 10px 10px;
+    border: 1px solid black;
+    background-color: yellow;
+}
+.CTAbutton3 a{
+      color: black;
+      font-size: 12px;
+      font-weight: 900;
+      list-style: none;
+      text-decoration: none;
+
+}
+.box2 {
+    position: relative;
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    float: right;
+    color: white; 
+    padding-right: 0px;
+
+
+}
+.box2 p1 {
+    font-size:15px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.289);
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+.box2 p1 span {
+     font-size: 15px;
+     font-weight:500;
+     padding-left: 100px;
+     
+}
+.box2 p2 {
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.238);
+    padding-right: 19px;
+    padding-bottom: 5px;
+}
+.box2 p2 span {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 80px;
+}
+.box2 p3 {
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.315);
+    padding-right: 18px;
+    padding-bottom: 5px;
+}
+.box2 p3 span {
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 112px;
+}

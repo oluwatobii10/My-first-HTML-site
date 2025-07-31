@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    background-color: ;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100%;
+    height: fit-content;
+    background-color:gainsboro;
+}
+.nav_container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.compname{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
+}
+.compname p{
+     font-size: 40px;
+     font-weight: 900;
+}
+.midbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ul{
+    position: relative;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+.midbar ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 45px;
+}
+.midbar ul a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.cta{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.cta button{
+    background-color: white;
+    border-radius: 50px; 
+    padding-left: 10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid white;
+}
+button a{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.maincontainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+}
+.upperbox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+}
+.upleft{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 878px;
+    padding-top: 30px;
+    padding-left: 50px;
+    background-color: gainsboro;
+}
+.racket{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    padding-left: 80px;
+    border-radius: 40px;
+    border: 1px solid white;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.image button img{
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.image{
+    position: relative;
+    display: flex;
+    width: 200%;
+   
+
+}
+.image img{
+     width: 100%;
+     height: fit-content;
+     background-color: rgba(0, 0, 0, 0.5);
+}
+.About{
+    position: relative;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.About p{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.About p strong{
+    font-size: 18px;
+    font-weight: 900;
+    
+}
+.About span p{
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.tennisplayer {
+    position: relative;
+    display: flex;
+    animation: 0.3s ease-in infinite;
+    
+}
+@keyframes tennisplayer{
+    0%{transform: scale(0.7);}
+    25%{transform: scale(0.9);}
+    50%{transform: scale(1);}
+    75%{transform: scale(0.9);}
+    100%{transform: scale(0.7);}
+}
+.tennisplayer img{
+    width: 70%;
+    height:600px ;
+    opacity: unset;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 30px;
+    padding-top: 15px;
+}
+.upright{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 878px;
+    width: 60%;
+    background-color:gainsboro ;
+}
+.G{
+    position: relative;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.G h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.G h1 span{
+    color: white;
+}
+.B{
+    position: relative;
+    flex-direction: row;
+}
+.B h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.B h1 span{
+    color: white;
+}
+.Per{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.Per p{
+   font-size: 15px;
+   font-weight: 500;
+}
+.cta1{
+    position: relative;
+    padding-top: 30px;
+}
+.cta1 button{
+    border-radius: 40px;
+    background-color: rgba(255, 187, 0, 0.86);
+    border: 1px solid rgb(255, 200, 0);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cta1 button a{
+    padding-left: px;
+    padding-right: px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.lowerbox{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: ;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+.llowerbox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 45px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.lowerbox1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+.pic{
+
+}
+
+.users {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.num{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.num p strong{
+    font-size: 20px;
+    font-weight: 900;
+}
+.num p strong span{
+    font-size: 20px;
+    font-weight:900;
+}
+.PP{
+    position: relative;
+    display: flex;
+}
+.PP p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.lowerbox2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.PL{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.PL button{
+    border-radius: 50px;
+}
+.PL button a{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.AL{
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    padding-left: 10px; 
+}
+.AL button{
+    border-radius: 50px;
+}
+.AL button a{
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 8px;
+     padding-top: 8px;
+}
+.lowerbox3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.AC{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.AC button{
+    border-radius: 50px;
+    background-color:black ;
+}
+.AC button a{
+    padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 8px;
+     padding-top: 8px;
+     color: white;
+}
+.PG{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+.PG button{
+    border-radius: 50px;
+}
+.PG button a{
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-bottom: 8px;
+     padding-top: 8px;
+}
+.sign{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+.sign a{
+    border-radius:50% ;
+    background-color: rgba(255, 187, 0, 0.86);
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+}
+.rlowerbox{
+     position: absolute;
+             top: 40px;
+             right: 36%;
+    display: flex;
+    flex-direction: row;
+    width: 0%;
+    height: 180px;
+    padding-left: 30px;
+    border-radius: 0px;
+}
+.rackc{
+   position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 180px;
+    border-radius: 30px;
+    background-color: white;
+    padding-top:20px ;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.rackc img{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: 150px;
+    border-radius: 30px;
+    
+}
+.song
+{
+    position: absolute;
+             top: 220px;
+             left: -40%;
+    display: flex;
+}
+.song audio{
+    background-color: black;
+    color: black;
+}

@@ -1,0 +1,188 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: repeat(3, minmax(10%, 1fr));
+    padding: 30px;
+    border: 2px solid black;
+    width: 100%;
+    height: fit-content;
+    gap: 20px;
+    background-color:rgba(0, 0, 0, 0.167);
+}
+
+.Lambo {
+    height: 400px;
+    margin: 20px;
+}
+.padl{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+.limagecontainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid rgba(255, 255, 255, 0.583);
+    padding-bottom: 5px;
+}
+.limage{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.limage img {
+    position: relative;
+    width: 440px;
+    height: 200px;border-radius: 10px;
+}
+.name{
+    position: relative;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding-left: 40px;
+    background-color: rgba(0, 0, 0, 0.759);
+}
+.about{
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.586);
+    padding-left: 40px;
+    background-color: rgba(0, 0, 0, 0.759);
+}
+.Lexus{
+    height: 400px;
+    margin: 20px;
+}
+.padlex{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.leximagecont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid rgba(255, 255, 255, 0.583)
+}
+.leximage img{
+    position: relative;
+    width: 440px;
+    height: 200px;
+    border-radius: 10px;
+}
+.name{
+    position: relative;
+}
+.labout{
+    position: relative;
+}
+
+.Benz{
+    height: 400px;
+    margin: 20px;
+}
+.padbenz{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.benzimagecont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid rgba(255, 255, 255, 0.583)
+}
+.bimage img{
+    position: relative;
+    width: 440px;
+    height: 200px;
+    border-radius: 10px;
+}
+.name{
+    position: relative;
+}
+.about{
+    position: relative;
+}
+
+.audi{
+    height: 400px;
+    margin: 20px;
+}
+.padaudi{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.audiimagecont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid rgba(255, 255, 255, 0.583)
+}
+.audiimage img{
+    position: relative;
+    width: 440px;
+    height: 200px;
+    border-radius: 10px;
+}
+.name{
+    position: relative;
+}
+.about{
+    position: relative;
+}
+.ford{
+    height: 400px;
+    margin: 20px;
+}
+.padford{
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+}
+.fordimagecont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid rgba(255, 255, 255, 0.583)
+}
+.fordimage img{
+    position: relative;
+    width: 440px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+.ferrari{
+    height: 400px;
+    margin: 20px;
+}
+.padferra{
+    position: relative;
+    display: flex;
+    flex-direction: column;  
+}
+.ferraimagecont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid rgba(255, 255, 255, 0.583)
+}
+.fimage img{
+    position: relative;
+    width: 440px;
+    height: 200px;
+    border-radius: 10px;
+}
+

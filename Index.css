@@ -1,0 +1,318 @@
+.maincontainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+.container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.912);
+    width: 100%;
+    height: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.nav_container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 650px;
+}
+.name{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+.name p strong{
+    font-size: 25px;
+    font-weight: 700;
+    color: gold;
+    list-style: armenian;
+}
+.navlinks{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navlinks ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 45px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.063);
+    color: white;
+}
+.navlinks ul p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.navlinks ul p a{
+    color: white;
+    text-decoration: none;
+}
+.navlinks button{
+    border-radius: 50px;
+    background-color: gold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navlinks ul button a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bodycont{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.sub{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.107);
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sub text{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.amount{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 8px;
+}
+.amount button{
+    border-radius: 50px;
+    background-color: rgba(255, 217, 0, 0.115);
+    border: 1px solid rgba(255, 217, 0, 0.138);
+    color: gold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.amount button span{
+    font-size: 16px;
+    font-weight: 600;
+}
+.body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.description{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description p1{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.description p2{
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+}
+.subbody{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+.cta1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    border: 3px dotted white;
+}
+.subbody input{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 10px;
+    border-radius: 50px;
+    border: 1px solid  rgba(0, 0, 0, 0.089);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.089);
+}
+.subbody button{
+    border-radius: 50px;
+    background-color: rgba(255, 217, 0, 0.485);
+    border: 1px solid  rgba(255, 217, 0, 0.287);
+}
+.subbody button span a {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.downbody{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.cta{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.cta button{
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.145);
+    color: white;
+}
+.cta button span{
+    font-size: 15px;
+    font-weight: 900;
+}
+.cta button span a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.netflix{
+    position: absolute;
+               top: 20px;
+               left: 10%;
+}
+.netflix img{
+    width: 100px;
+    height: 100px;
+}
+.prime{
+    position: absolute;
+              top:20px;
+              left: 80%;
+}
+.prime img{
+    width:100px;
+    height:100px;
+}
+.imagecont{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(20%, 1fr));
+    width: 100%;
+    gap: 0px;
+    padding-left: 70px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+.moneyheist{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.moneyheist img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    animation: 0.3s ease-in;
+}
+.moneyheist img:hover{
+    width: 230px;
+    height: 320px;
+}
+.uefa{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.uefa img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    animation: 0.3s ease-in;
+}
+.uefa img:hover{
+    width: 230px;
+    height: 320px;
+}
+.squidgame{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.squidgame img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    animation: 0.3s ease-in;
+}
+.squidgame img:hover{
+    width: 230px;
+    height: 320px;
+}
+.mine{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.mine img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;
+    animation: 0.3s ease-in;
+}
+.mine img:hover{
+    width: 230px;
+    height: 320px;
+}
+.merlin{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.merlin img{
+    width:200px;
+    height:300px;
+    border-radius: 20px;
+    animation: 0.3s ease-in;
+}
+.merlin img:hover{
+    width: 230px;
+    height: 320px;
+}

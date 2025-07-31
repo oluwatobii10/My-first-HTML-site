@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    height: 700px;
+    border-top: 20px solid black;
+    border-left: 20px solid grey;
+    border-right: 20px solid gray;
+}
+.nav_container {
+    width: 100%;
+    height: 70px;
+    background-color: beige;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    padding: 10px 20px;
+}
+.nav_container ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: 70px;
+    list-style-type: none;
+}
+.sign {
+    background-color: gray;
+    width: 110px;
+    height: 40px;
+}
+a:hover {
+    color: brown;
+}
+.grand_parent {
+    width: 100%;
+    height: 630px;
+}
+.parent1 {
+    width: 55%;
+    height: 630px;
+    float: left;
+}
+.child1 {
+    width: 100%;
+    height: 500px;
+    background-color: bisque;
+    padding: 120px 100px;
+}
+#ui {
+    border-radius: 80px;
+    border-style: hidden;
+    width: 80px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+#hire {
+    border-style: hidden;
+    width: 80px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+}
+.child2 {
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    padding: 10px 20px;
+}
+.parent2 {
+    width: 45%;
+    height: 630px;
+    background-color: blueviolet;
+    float: right;
+}
+.parent2 img {
+    width: 100%;
+    height: 630px;
+}
