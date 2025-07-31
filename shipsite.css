@@ -629,7 +629,7 @@
     padding-bottom:110px;
 }
 .h3 p{
-    font-size: 8px;
+    font-size: 9px;
     color: white;
 }
 .h4{
@@ -645,49 +645,49 @@
 }
 .head{
     position: relative;
-    display: flex;
+    display:flex;
     flex-direction: row;
     justify-content: flex-start;
     padding-bottom: 10px;
 }
 .head p{
     color: black;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
 }
 .midhead{
     position: relative;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
 }
 .midhead p1{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: black;
     padding-left: 10px;
     padding-bottom: 20px;
 }
 .midhead p2{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: black;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-bottom: 20px;
 }
 .midhead p3{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: black;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-bottom: 20px;
 }
 .downhead{
     position: absolute;
-              bottom:10%;
-              left: 20px;
+              top:74px;
+              left:68%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     gap: 5px;
@@ -697,7 +697,7 @@
     position: relative;
     width:10%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 0px;
@@ -708,6 +708,7 @@
     flex-direction: row;
     align-items: center;
     display: flex;
+    padding-bottom: 0px;
     padding-left: 5px;
     padding-right: 0px;
     padding-bottom: 0px;
@@ -748,16 +749,19 @@
     border: 1px solid rgba(0, 0, 0, 0.293);
 }
 .H{
-    position: relative;
+    position: absolute;
+              top: 110px;
+              left: 68%;
     display: flex;
+    flex-direction: row;
     padding-left: 10px;
 }
 .H button{
     border-radius: 40px;
     background-color: gold;
     border: 1px solid gold;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .H button p a{
     color: black;
