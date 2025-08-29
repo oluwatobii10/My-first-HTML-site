@@ -1,0 +1,238 @@
+.container{
+    width: 100%;
+    height: 800px;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 35px 20px 35px;
+    background-color: rgba(128, 128, 128, 0.533);
+}
+.logo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.check-toggle{
+    display: none;
+}
+.navlinks{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.navlinks ul{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.navlinks ul li{
+    color: aqua;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cta{
+    position: relative;
+     display: flex;
+}
+.cta button{
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: black;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid black;
+}
+.body{
+  text-align: center;
+  margin-top: 20px;
+}
+.button{
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: teal;
+  color: yellow;
+
+}
+.button:hover{
+  background-color: green;
+}
+
+/* @media (max-width:400px){
+.navbar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.toggle{
+    display: flex;
+    flex-direction: row ;
+}
+.check-toggle{
+    opacity: 0;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+    cursor: pointer;
+}
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3px;
+}
+.hamburger span{
+    width: 20px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: white;
+    transition:transform 0.3s ease;
+}
+.check-toggle:checked~.cta{
+    display: flex;
+}
+.check-toggle:checked~.hamburger span:nth-child(1){
+        display: flex;
+        transform: translateY(25px) rotate(45deg);
+     }
+.check-toggle:checked~.hamburger
+  span:nth-child(2){
+    display:none;
+  }
+.check-toggle:checked~.hamburger
+ span:nth-child(3){
+    display: flex;
+    transform: translateY(25px) rotate(-45deg);
+
+ }
+ .navlinks{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .cta{
+    position: relative;
+    display: flex;
+ }
+
+
+
+
+} */
+ @media (max-width:420px) {
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* Hide checkbox */
+  .check-toggle {
+    display: none;
+  }
+
+  /* Hamburger */
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25px;
+    height: 18px;
+    cursor: pointer;
+  }
+
+  .hamburger span {
+    display: flex;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background: white; /* FIXED */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  /* Nav & CTA hidden by default */
+  .navlinks,
+  .cta {
+    display: none;
+    flex-direction: column;
+    gap: 15px;
+    background: #444;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .navlinks ul {
+    position: relative;
+    align-items: center;
+    padding-right: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navlinks ul li {
+    color: white;
+    cursor: pointer;
+  }
+
+  .cta a button {
+    background: #ff6600;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* ✅ Show nav & cta when checked */
+  .check-toggle:checked ~ .navlinks,
+  .check-toggle:checked ~ .cta {
+    display: flex;
+  }
+
+  /* ✅ Animate hamburger into "X" */
+  .check-toggle:checked + .hamburger span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .check-toggle:checked + .hamburger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .check-toggle:checked + .hamburger span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}

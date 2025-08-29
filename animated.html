@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image to Video on Hover</title>
+  <style>
+    .media-container {
+      position: relative;
+      width: 600px;   /* adjust as needed */
+      height: 400px;  /* adjust as needed */
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .media-container img,
+    .media-container video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 0.4s ease;
+    }
+
+    .media-container video {
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .media-container:hover img {
+      opacity: 0;
+    }
+
+    .media-container:hover video {
+      opacity: 1;
+      pointer-events: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="media-container">
+    <img src="./image/merlin.png" alt="Preview Image">
+    <video src="./image/Merlin (2008) - Theme song.mp4" muted loop></video>
+  </div>
+
+  <script>
+    // autoplay on hover
+    const container = document.querySelector(".media-container");
+    const video = container.querySelector("video");
+
+    container.addEventListener("mouseenter", () => {
+      video.play();
+    });
+
+    container.addEventListener("mouseleave", () => {
+      video.pause();
+      video.currentTime = 0; // restart from beginning
+    });
+  </script>
+</body>
+</html>

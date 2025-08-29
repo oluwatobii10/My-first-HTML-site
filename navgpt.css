@@ -1,0 +1,103 @@
+
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+    }
+
+    /* 🌐 Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      background: #333;
+      color: white;
+      position: relative;
+    }
+
+    .logo img {
+      width: 40px;
+      height: 40px;
+    }
+
+    /* 🔘 Hidden checkbox toggle */
+    .check-toggle {
+      display: none;
+    }
+
+    /* 🍔 Hamburger button */
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 25px;
+      height: 18px;
+      cursor: pointer;
+    }
+
+    .hamburger span {
+      width: 100%;
+      height: 3px;
+      border-radius: 5px;
+      background: white;
+      transition: all 0.3s ease;
+    }
+
+    /* 📋 Menu links */
+    .cta {
+      display: none;
+      flex-direction: column;
+      gap: 10px;
+      background: #444;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    .cta a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+    }
+
+    /* ✅ Toggle behavior */
+    .check-toggle:checked ~ .cta {
+      display: flex;
+    }
+
+    .check-toggle:checked ~ .hamburger span:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    .check-toggle:checked ~ .hamburger span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .check-toggle:checked ~ .hamburger span:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+
+    @media (min-width: 420px) {
+      .hamburger {
+        display: none;
+      }
+
+      .cta {
+        display: flex !important;
+        flex-direction: row;
+        gap: 20px;
+        position: static;
+        background: none;
+        padding: 0;
+      }
+    }
+ 

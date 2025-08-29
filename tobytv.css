@@ -1,10 +1,4 @@
-.maincontainer{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: fit-content;
-}
+
 .container1{
     position: relative;
     display: flex;
@@ -26,7 +20,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 650px;
+    gap: 450px;
 }
 .name{
     position: relative;
@@ -303,16 +297,34 @@
 }
 .merlin{
     position: relative;
-    display: flex;
+    width: 200px;
+    height: 300px;
     flex-direction: row;
+    overflow: hidden;
+    cursor: pointer;
 }
-.merlin img{
+.merlin img,
+.merlin video{
+    position: relative;
     width:200px;
     height:300px;
     border-radius: 20px;
-    animation: 0.3s ease-in;
+    object-fit: cover;
+    transition: opacity 0.4s ease;
 }
 .merlin img:hover{
+    opacity: ;
     width: 230px;
     height: 320px;
 }
+.merlin video{
+    pointer-events: none;
+    opacity: 1;
+    width: 200px;
+    height: 320px;
+}
+.merlin video:hover{
+    opacity: 1;
+    pointer-events: auto;
+}
+

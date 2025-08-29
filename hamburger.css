@@ -1,0 +1,259 @@
+.navcontainer {
+    width: 100%;
+    height: fit-content;
+     background: linear-gradient(45deg,rgba(255, 0, 0, 0.296),rgba(0, 0, 255, 0.246));
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 10px 8px 10px;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+
+}
+.logocontainer{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.logocontainer img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.nav-linkscont{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-linkscont ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+}
+.nav-linkscont ul p span a{
+       color: black;
+       text-decoration: none;
+       border-bottom: 1px solid gold;
+
+}
+.nav-linkscont ul p a{
+    color: white;
+    text-decoration: none;
+}
+.cta{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cta1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+.cta1 button{
+    position: relative;
+    display: flex;
+    border: 1px solid gold;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.194);
+}
+.cta1 a{
+
+    color: yellow;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+    
+.cta2{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding-right: 10px; 
+ }
+.cta2 button{
+    position: relative;
+    display: flex;
+    background-color: gold;
+    border-radius: 50px;
+    border: 1px solid gold;
+}
+.cta2 a{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;  
+    text-decoration: none;
+}
+
+.navbar-head{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav-body{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkboxlabel span div:nth-child(1) {
+    background-color: white;
+    width: 35px;
+    height: 7px;
+    border-radius: 4px;
+}
+
+.checkboxlabel span div:nth-child(2) {
+    background-color: white;
+    width: 35px;
+    height: 7px;
+    border-radius: 4px;
+}
+
+.checkboxlabel span div:nth-child(3) {
+    background-color: white;
+    width: 35px;
+    height: 7px;
+    border-radius: 4px;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.checkboxone {
+    display: none;
+}
+
+.checkbox-box {
+    display: none;
+}
+.body{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 10px;
+    background: radial-gradient(circle,black,grey);
+}
+.mail{
+    position: relative;
+    display: flex;
+    width: 50px;
+}
+.mail p{
+    list-style: armenian;
+    color:whitesmoke;
+    padding-right: 20px;
+}
+.pass{
+    position: relative;
+    display: flex;
+    width: 50px;
+}
+.pass p{
+    list-style: armenian;
+    color: antiquewhite;
+    padding-right: 20px;
+}
+.rg{
+    position: relative;
+}
+
+
+
+@media (max-width: 600px){
+
+    .navcontainer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-head{
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .checkbox-box{
+        display: flex;
+    }
+
+    .nav-linkscont ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        justify-content: center;
+        padding: 0px;
+    
+    }
+
+      .nav-linkscont ul li {
+        text-align: center;
+    
+    }
+
+    .nav-body {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+      
+    }
+
+    .cta{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+        padding: 0px;
+    }
+
+    .cta1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+    }
+
+    .cta2 {
+      
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .checkboxone {
+        display: flex;
+    }
+
+    .checkboxone:checked{
+        
+        }
+    }
